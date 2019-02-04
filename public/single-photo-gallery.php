@@ -49,9 +49,13 @@ get_header();
 	</div>
 </div>
 
-		<!-- .four-columns - sidebar -->
 
-		<?php get_sidebar(); ?>
+		<!-- .four-columns - sidebar -->
+        <div class="sidebar four columns">
+            <div class="widget-area clearfix lines-boxed" style="min-height: 1348px;">
+                <?php dynamic_sidebar("sidebar-photo-gallery-left-sidebar"); ?>
+            </div>
+        </div>
 
 			
 
